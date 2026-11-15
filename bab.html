@@ -1,0 +1,141 @@
+<html>
+<head>
+<title>cut site</title>
+<style>
+h1{text-align:center;
+color:orange;}
+body{background-color:black;
+color:skyblue;
+text-align:center;}
+#cut{text-align:right;}
+form{background-color:orange;
+color:black;
+opacity:30%;}
+form:hover{opacity:100%;}
+.wa{remove background;}
+</style>
+</head>
+<body>
+<nav>
+<a href="#home" id="home">homepage</a>
+
+<a href="#about" id="about">about us</a>
+
+<a href="#contacts" id="cont">contacts</a>
+<a href="#BOOKING FORM" id="bookingform">Booking area</a>
+<h1>TRIMA CUTS</h1>
+<br>
+Located in Nairobi CBD opposite Lumumba House
+<br>
+<h2> YOUR NUMBER ONE BABER SHOP IN KENYA</h2>
+<br>
+<p>Looking for a classic hair cut ????????</p>
+Look no more!!!!! 
+<br>
+TRIMA CUTS provides the best hair cuts and services  in the 21st centuary
+<br>
+<img id="cut"src="01.jpg"alt="cut"height="500px"width="250px">
+<img id="tuc"src="02.jpg"alt="cut"height="500px"width="250px">
+<img id="tuc"src="03.jpg"alt="cut"height="500px"width="250px">
+<img id="tuc"src="04.jpg"alt="cut"height="500px"width="250px">
+<br>
+<section id="booking">
+BOOK YOUR SESSION TODAY
+<br>
+<form id="bookingform" action="book.php method="GET">
+<fieldset>
+BOOKING FORM
+<br>
+<label>Name</label>
+<input type="text"id="name"placeholder="name"required>
+<br>
+<label>Email</label>
+<input type="email"id="mail"placeholder="email"required>
+<br>
+<label>visit day</label>
+<input type="date"id="day"placeholder="DD/MM/YY"required>
+<br>
+<label>Time</label>
+<input type="time" id="time"required>
+<br>
+<label>Your baber</label>
+<input type="RADIO"name="baber">Jessica
+<input type="RADIO"name="baber">Trima
+<input type="RADIO"name="baber">Smith
+<input type="RADIO"name="baber">Joice
+<input type="RADIO"name="baber">Cindy
+<input type="RADIO"name="baber">Sam
+<br>
+<label>Hair style & other services</label>
+<select>
+<option>high fade taper</option>
+<option>low fade taper</option>
+<option>mid fade taper</option>
+<option>school cut</option>
+<option>bald cut</option>
+<option>balloteli</option>
+<option>dredlocs instalation</option>
+<option>dredlocs retouch</option>
+<option>smart afro</option>
+<option>Nails services</option>
+<option>Makeup services</option>
+<option>Spa services</option>
+</select>
+<br>
+<button submit>submit</submit>
+</fieldset>
+</form>
+</section>
+<br>
+<p><b>REACH US VIA</p>
+<br>
+<img src="wa.jpg"alt="watsup"id="wa"width="20px"height="20px">
+whatsapp:  <b>0792797944
+<br>
+Facebook:  <b>TRIMA CUTS KENYA
+<br>
+Instagram:  <b>TRIMA CUTS KENYA OFFICIAL
+<br>
+Email:  <b>trimacuts@gmail.com
+<br>
+<script>
+let greetings= prompt("how are you");
+alert(greetings);
+</script>
+
+<script>
+window.onload = function(){
+alert("WELCOME TO TRIMA CUTS YOUR NUMBER ONE BABERSHOP IN KENYA!");
+};
+</script>
+<script>
+document.getElementById("home").button on click = function(){
+alert("back to the page");
+button on click=welcome to home page
+</script>
+<script>
+document.getElementById("bookingform").addEventListener("submit",fuction(event){
+let name = document.getElementById("name").value;
+let email = document.getElementById("mail").value;
+let day = document.getElementById("day").value;
+let time = document.getElementById("time").value;
+
+if(name==""|| email==""|| day==""|| time==""
+){
+alert("please fill in all the fields.");
+event.preventDefault();
+}
+else{
+alert("Booking succesful! We look forward to seeing youat TRIMA CUTS.!");
+}
+});
+</script>
+
+<script>
+document.getElementById(bookingform).HTML
+window.onbeforeunload = function(){
+return"Are you sure you want to leave this webpage?";
+};
+</script>
+</body>
+
